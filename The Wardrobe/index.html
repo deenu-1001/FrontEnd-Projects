@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Wardrobe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;0,600;0,700;1,300&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/212851a47a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- -----------------Header------------------ -->
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="photos/logofinal.png" width="250px" alt="Logo"></a>
+                </div>
+                <nav>
+                    <ul id="menu-items">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="product.html">Products</a>
+                        </li>
+                        <li>
+                            <a href="#offer">Deals</a>
+                        </li>
+                        <li>
+                            <a href="account.html">Account</a>
+                        </li>
+                        <li>
+                            <a href="wishlist.html"><i class="fa-regular fa-heart"></i>
+                        </li>
+                        <li>
+                            <a href="cart.html"><i class="fa-solid fa-bag-shopping bag"></i></a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- <i class="fa-solid fa-bars menu" onclick="menutoggle()"></i> -->
+                <!-- <i class="fa-solid fa-bag-shopping"></i> -->
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1 id="check">
+                        #Shop' Till You Drop <br> Find All Your Shopping Needs Here!
+                    </h1>
+                    <p class="quote">
+                        "The only way to do great work is to love what you do. If you haven't found it yet, keep
+                        looking.
+                        Don't settle."
+                    </p>
+                    <a href="" class="btn">Explore now &#8594;</a>
+                </div>
+                <div class="col-2">
+                    <img src="photos/home.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------featured products---------- -->
+    <div class="small-container">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="photos/g1.png" alt="Shirt">
+                <h3>Roadster</h3>
+                <h5>Men Slim Fit Casual Shirt</h5>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>Rs. 599 <span class="discount">Rs. 1599</span><span class="dis"> (Rs. 1000 OFF)</span></p>
+                <p class="p-btn"><i class="fa-regular fa-heart"></i>Wishlist</p>
+                <p class="p-btn">Add to bag</p>
+            </div>
+            <div class="col-4">
+                <img src="photos/p6.png" alt="Dress">
+                <h3>H&M</h3>
+                <h5>Cut-out Cotton Dress</h5>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <p>Rs. 909 <span class="discount">Rs. 1299</span><span class="dis"> (30% OFF)</span></p>
+                <p class="p-btn"><i class="fa-regular fa-heart"></i>Wishlist</p>
+                <p class="p-btn">Add to bag</p>
+            </div>
+            <div class="col-4">
+                <img src="photos/p12.png" alt="Shoes">
+                <h3>HRX <span class="sub">by Hrithik Roshan</span> </h3>
+                <h5>Women White Fly Sneakers</h5>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <p>Rs. 1934 <span class="discount">Rs. 4299</span><span class="dis"> (Rs. 2365 OFF)</span></p>
+                <p class="p-btn"><i class="fa-regular fa-heart"></i>Wishlist</p>
+                <p class="p-btn">Add to bag</p>
+            </div>
+            <div class="col-4">
+                <img src="photos/p7.png" alt="Kurta">
+                <h3>VASTRADO</h3>
+                <h5>Men Kurta With Churidar</h5>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>Rs. 1884 <span class="discount">Rs. 6499</span><span class="dis"> (Rs. 4615 OFF)</span></p>
+                <p class="p-btn"><i class="fa-regular fa-heart"></i>Wishlist</p>
+                <p class="p-btn">Add to bag</p>
+            </div>
+        </div>
+    </div>
+    <!-- ---------offer---------- -->
+    <div id="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="photos/efinal.png" alt="Exclusive" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p class="exclusive">Exclusively available on <span class="t">The Wardrobe</span></p>
+                    <h2 class="exclusive-title">Apple Watch Ultra</h2>
+                    <p class="small">
+                        Introducing the Apple Watch Ultra - the ultimate combination of fashion and function. Newest
+                        addition to the Apple Watch family combines cutting-edge technology with a sleek, modern design,
+                        allowing you to stay connected and productive in style.
+                    </p>
+                    <a href="" class="btn">Buy Now &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------latest products---------- -->
+    <div class="small-container">
+        <h2 class="title">Latest Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="photos/p4.png" alt="Top">
+                <h3>Pannkh</h3>
+                <h5>Ethnic Motifs Pleated Neck Top</h5>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>Rs. 339 <span class="discount">Rs. 999</span><span class="dis"> (66% OFF)</span></p>
+                <p class="p-btn"><i class="fa-regular fa-heart"></i>Wishlist</p>
+                <p class="p-btn">Add to bag</p>
+            </div>
+            <div class="col-4">
+                <img src="photos/p1.png" alt="T-Shirt">
+                <h3>HRX</h3>
+                <h5>Printed Pure Cotton T-Shirt</h5>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>Rs. 419 <span class="discount">Rs. 699</span><span class="dis"> (40% OFF)</span></p>
+                <p class="p-btn"><i class="fa-regular fa-heart"></i>Wishlist</p>
+                <p class="p-btn">Add to bag</p>
+            </div>
+            <div class="col-4">
+                <img src="photos/p3.png" alt="Jeans">
+                <h3>WROGN</h3>
+                <h5>Men Slim Fit Jeans</h5>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>Rs. 1799 <span class="discount">Rs. 2999</span><span class="dis"> (40% OFF)</span></p>
+                <p class="p-btn"><i class="fa-regular fa-heart"></i>Wishlist</p>
+                <p class="p-btn">Add to bag</p>
+            </div>
+            <div class="col-4">
+                <img src="photos/p8.png" alt="Kurta">
+                <h3>ANOUK</h3>
+                <h5>Women Printed Straight Kurta</h5>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>Rs. 559 <span class="discount">Rs. 1599</span><span class="dis"> (65% OFF)</span></p>
+                <p class="p-btn"><i class="fa-regular fa-heart"></i>Wishlist</p>
+                <p class="p-btn">Add to bag</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="photos/p11.png" alt="Kid">
+                <h3>LIL PITAARA</h3>
+                <h5>Printed Kurta with Pyjamas</h5>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>Rs. 1799 <span class="discount">Rs. 2999</span><span class="dis"> (40% OFF)</span></p>
+                <p class="p-btn"><i class="fa-regular fa-heart"></i>Wishlist</p>
+                <p class="p-btn">Add to bag</p>
+            </div>
+            <div class="col-4">
+                <img src="photos/p5.png" alt="Jeans">
+                <h3>Levis</h3>
+                <h5>Skinny Fit Jeans</h5>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>Rs. 1619 <span class="discount">Rs. 2699</span><span class="dis"> (40% OFF)</span></p>
+                <p class="p-btn"><i class="fa-regular fa-heart"></i>Wishlist</p>
+                <p class="p-btn">Add to bag</p>
+            </div>
+            <div class="col-4">
+                <img src="photos/p9.png" alt="Watch">
+                <h3>Daniel Klein</h3>
+                <h5>Premium Analogue Watch</h5>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>Rs. 1925 <span class="discount">Rs. 5500</span><span class="dis"> (65% OFF)</span></p>
+                <p class="p-btn"><i class="fa-regular fa-heart"></i>Wishlist</p>
+                <p class="p-btn">Add to bag</p>
+            </div>
+            <div class="col-4">
+                <img src="photos/p10.png" alt="Kid">
+                <h3>Pspeaches</h3>
+                <h5>Cotton Midi Dress With Shrug</h5>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>Rs. 1125 <span class="discount">Rs. 2500</span><span class="dis"> (55% OFF)</span></p>
+                <p class="p-btn"><i class="fa-regular fa-heart"></i>Wishlist</p>
+                <p class="p-btn">Add to bag</p>
+            </div>
+        </div>
+    </div>
+    <!-- ---------categories---------- -->
+    <div class="small-container">
+        <h2 class="title">Shop By Category</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="photos/1.png" alt="western" class="cat-img">
+                <h3 class="cat-title">Western Wear</h3>
+            </div>
+            <div class="col-4">
+                <img src="photos/2.png" alt="Ethnic" class="cat-img">
+                <h3 class="cat-title">Ethnic Wear</h3>
+            </div>
+            <div class="col-4">
+                <img src="photos/3.png" alt="Shoes" class="cat-img">
+                <h3 class="cat-title">Shoes/Bags</h3>
+            </div>
+            <div class="col-4">
+                <img src="photos/4.png" alt="Casual" class="cat-img">
+                <h3 class="cat-title">Casual Wear</h3>
+            </div>
+        </div>
+        <a href="" class="cat-btn">See More
+            <!--&#8594;-->
+        </a>
+    </div>
+    <!-- ---------brands---------- -->
+    <div class="brands">
+        <div class="small-container">
+            <h2 class="title">Top Brands</h2>
+            <div class="row">
+                <div class="col-5">
+                    <img src="photos/nike.png" alt="nike" class="b-logo">
+                </div>
+                <div class="col-5">
+                    <img src="photos/hm.png" alt="hm" class="b-logo">
+                </div>
+                <div class="col-5">
+                    <img src="photos/puma.png" alt="puma" class="b-logo">
+                </div>
+                <div class="col-5">
+                    <img src="photos/levis.png" alt="levis" class="b-logo">
+                </div>
+                <div class="col-5">
+                    <img src="photos/zara.png" alt="zara" class="b-logo">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------footer---------- -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="photos/play-store.png" alt="Playstore">
+                        <img src="photos/app-store.png" alt="iosstore">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="photos/The.png" alt="Logo">
+                    <p>Shop Smart, Shop Easy at <span class="t">The Wardrobe!</span></p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright © 2023 - The Wardrobe All Rights Reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
